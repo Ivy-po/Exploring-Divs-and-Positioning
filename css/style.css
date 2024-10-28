@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: lightgrey;
+}
+
+h2 {
+    width: 50%;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+p {
+    margin-left: 150px;
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.blinky {
+    border: solid 3px;
+    border-color: red;
+    border-radius: 10px;
+    color: white;
+    font-family: cursive;
+    background-color: black;
+}
