@@ -8,28 +8,29 @@ body {
 }
 
 h2 {
-    width: 50%;
-    margin-left: 150px;
     padding: 5px;
 }
 
 p {
-    margin-left: 150px;
     padding: 5px;
 }
 
 img {
     width: 100px;
-    float: left;
-    margin: 10px;
+    margin:5px;
     border-radius: 30px;
+}
+
+.ghost{
+    display: flex;    /* place items horiz  */
 }
 
 .blinky {
     border: solid 3px;
-    border-color: red;
     border-radius: 10px;
+    border-color: red;  
+    margin: 3px;
     color: white;
     font-family: cursive;
-    background-color: black;
+    background-color: black;   
 }
