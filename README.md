@@ -21,14 +21,6 @@ Let's try it a different way now. Remove the 3 lines of CSS code that have comme
 ## `<Div>`s and flex
 A `<div></div>` element represents a division of the page. It is used to group elements together. This is a common way to position and style elements on a webpage.
 
-The CSS property of `display` can be set to `flex` which allows us to place elements on the page horizontally. It also provides better options for spacing elements.
-
-1) Create a new CSS rule as follows:
-    ```
-    .ghost{
-        display: flex;
-    }
-    ```
 2) Create a sets of `<div></div>` tags for the the Blinky section as shown below.
     ```
     <div>  <!-- Outer Div -->
@@ -37,6 +29,15 @@ The CSS property of `display` can be set to `flex` which allows us to place elem
     ```
 
 3) Next move the code from the Blinky section to between the opening and closing `div` tags. 
+
+The CSS property of `display` can be set to `flex` which allows us to place elements on the page horizontally. It also provides better options for spacing elements.
+
+1) Create a new CSS rule as follows:
+    ```
+    .ghost{
+        display: flex;
+    }
+    ```
 
 4) Then add a `class="ghost"` attribute to the opening `<div>` tag of the outer `<div>`. This will put all of the Blinky code in a division of the page for that specific ghost. 
 
