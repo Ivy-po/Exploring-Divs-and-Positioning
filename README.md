@@ -54,4 +54,16 @@ The CSS property of `display` can be set to `flex` which allows us to place elem
    1) Place the image inside the the 1st inner `<div>`.
    2) Place both the Heading and paragraph in the 2nd inner `<div>'.
 
-Since the outer <div> with the `class="ghost"` has the `display: flex` property, it displays elements horizontally. When we moved the image, heading and paragraph into the `<div>`s now there are only 2 children to be placed horizontally and the element inside the inner `<div>`s are stacked vertically.
+Since the outer `<div>` with the `class="ghost"` has the `display: flex` property, it displays elements horizontally. When we moved the image, heading and paragraph into the `<div>`s now there are only 2 children to be placed horizontally and the element inside the inner `<div>`s are stacked vertically.
+
+Now you can repeat the steps 2-6 for the Pinky, Inky and Clyde sections of the page.
+
+The final steps would be to add the correctly colored borders to each section. You can do this by simply adding the appropriate class to that div in the HTML document. For example the open `<div>` tag for Blinky would change from `<div class="ghost">` to `<div class="ghost blinky">`. This will apply the style rules for both classes to that element. Some extra margin rules may need to be added to ensure the borders don't overlap.
+
+Make sure all sections are similarly styled. Validate your code at https://validator.w3.org/#validate_by_input  
+
+If you have extra time, try to:
+* Modify the background to be an image. 
+* Experiment with the CSS ':hover' psuedo class.
+* Add a .gif of Pacman
+* Embed a video...
