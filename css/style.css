@@ -8,28 +8,26 @@ body {
 }
 
 h2 {
+    margin-left: 150px;   /*  <-- old way */
     padding: 5px;
 }
 
 p {
+    margin-left: 150px;   /*  <-- old way */
     padding: 5px;
 }
 
 img {
+    float: left;          /*  <-- old way */
     width: 100px;
+    padding: 10px;
     margin:5px;
-    border-radius: 30px;
-}
-
-.ghost{
-    display: flex;    /* place items horiz  */
 }
 
 .blinky {
     border: solid 3px;
     border-radius: 10px;
     border-color: red;  
-    margin: 3px;
     color: white;
     font-family: cursive;
     background-color: black;   
